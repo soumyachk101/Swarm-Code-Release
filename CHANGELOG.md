@@ -2,6 +2,12 @@
 
 All notable changes to SwarmAI are documented here.
 
+## [1.1.3] - 2026
+
+### Changed
+- Configured in-app update checker to fetch latest updates directly and anonymously from the public SwarmAI-Release repository
+- Streamlined about settings links and release references
+
 ## [1.1.2] - 2026
 
 ### Added
