@@ -1,63 +1,191 @@
-# SwarmAI — Your coding agents, native on the Mac
+<div align="center">
 
-<p align="center">
-  <img src="assets/icon.png" width="128" height="128" alt="SwarmAI Icon" />
-</p>
+<img src="assets/icon.png" alt="SwarmAI" width="140" height="140">
 
-<p align="center">
-  <strong>The high-performance, native macOS desktop client for multi-agent AI coding.</strong><br>
-  Codex, Claude, Gemini, DeepSeek, Meta, OpenCode, and Copilot — all in one unified, glassmorphic Mac experience.
-</p>
+# SwarmAI
 
-<p align="center">
-  <a href="https://github.com/soumyachk101/SwarmAI-Release/releases/latest"><img src="https://img.shields.io/github/v/release/soumyachk101/SwarmAI-Release?color=38bdf8&label=Latest%20Release&style=flat-square" alt="Latest Release" /></a>
-  <img src="https://img.shields.io/badge/Platform-macOS%20(Apple%20Silicon)-orange?style=flat-square" alt="Platform: macOS Apple Silicon" />
-  <img src="https://img.shields.io/badge/Architecture-arm64-blue?style=flat-square" alt="Architecture arm64" />
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status" />
-</p>
+### Your coding agents. Native on the Mac.
+
+**Codex · Claude · Cursor · OpenCode · Grok · Antigravity · DeepSeek · Meta**
+
+One Liquid Glass window. Your subscriptions. No middleman.
+
+[⬇ Download](#-download) &nbsp;|&nbsp; [🚀 Features](#-features) &nbsp;|&nbsp; [📖 Docs](#-docs) &nbsp;|&nbsp; [💬 Discord](https://discord.gg/droppy)
+
+[![macOS 26+](https://img.shields.io/badge/macOS-26%2B-999?logo=apple)](https://www.apple.com/macos)
+[![SwiftUI](https://img.shields.io/badge/Swift-SwiftUI-orange?logo=swift)](https://developer.apple.com/swiftui/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Open Source](https://img.shields.io/badge/Open-Source-%E2%9D%A4%EF%B8%8F-red)](https://github.com/soumyachk101/SwarmAI-Release)
 
 ---
 
-## ⚡️ Download & Install
+</div>
 
-### [⬇️ Download Latest Release for macOS (Apple Silicon)](https://github.com/soumyachk101/SwarmAI-Release/releases/latest/download/SwarmAI-1.1.2.dmg)
+## What is SwarmAI?
 
-> **Requirements:** Apple Silicon Mac (M1/M2/M3/M4 or newer), macOS 14.0+.
+**SwarmAI** is a native macOS desktop app that unifies all your AI coding agents into one beautiful, powerful interface.
 
-### Installation:
-1. Download `SwarmAI-1.1.2.dmg` from the [Releases](https://github.com/soumyachk101/SwarmAI-Release/releases) page.
-2. Double-click the `.dmg` file to open it.
-3. Drag **SwarmAI.app** into your `/Applications` folder.
-4. Launch SwarmAI from Applications or Spotlight.
+Built entirely in **Swift and SwiftUI** with Apple's **Liquid Glass** design language, SwarmAI drives the coding agents you already have installed — on your own subscriptions, with zero markup, zero cloud, zero compromise.
 
-*Tip for Gatekeeper:* If macOS displays a notice on first launch, right-click (or Control-click) `SwarmAI.app` in `/Applications` and select **Open**, or run:
-```bash
-xattr -cr /Applications/SwarmAI.app
+> **The philosophy:** Your agents. Your Mac. Your control. No accounts, no telemetry, no cloud sync.
+
+---
+
+## Screenshots
+
+|  |  |
+|---|---|
+| <img src="assets/screenshots/hero.webp" alt="Main window with streaming reply" width="100%"><br>**Streaming replies** with live diff | <img src="assets/screenshots/palette.webp" alt="Command palette" width="100%"><br>**Command palette** — everything in one keystroke |
+| <img src="assets/screenshots/switcher.webp" alt="Model switcher" width="100%"><br>**Model picker** — any model, any provider | <img src="assets/screenshots/sidebar.webp" alt="Project sidebar" width="100%"><br>**Sidebar** — projects, threads, and search |
+| <img src="assets/screenshots/plans.webp" alt="Plan mode" width="100%"><br>**Plan mode** — approvals before changes | <img src="assets/screenshots/diff.webp" alt="Diff viewer" width="100%"><br>**Diff** — every turn, a checkpoint |
+| <img src="assets/screenshots/themes.webp" alt="Theme picker" width="100%"><br>**26 themes** — from System to Catppuccin | <img src="assets/screenshots/question.webp" alt="Question mode" width="100%"><br>**Questions** — ask before pushing |
+
+---
+
+## Features
+
+### Agents
+Drive **Codex**, **Claude**, **Cursor**, **OpenCode**, **Grok**, **Antigravity**, **DeepSeek**, and **Meta** from one window. Sign in once in your terminal — SwarmAI picks it up automatically.
+
+### Hydra
+Turn a big job into a team. The lead writes the briefs, sends heads out in parallel — each in its own git worktree — and their work lands back in your checkout. Pair a strong lead with quick heads, fuse effort across the team.
+
+### Streaming & Diffs
+Watch streaming replies arrive in real time — reasoning, reads, edits, to-dos, builds. Every turn gets a checkpoint with a diff. Read the change, revert the turn, or rewind the whole thread.
+
+### Follow-up Queue
+Type while it works. Follow-ups line up above the chat box and go out one after another when the turn ends. Never lose a thought mid-turn.
+
+### Inline Approvals
+The agent proposes a plan, asks before it pushes, and you approve right in the timeline. Plan mode, model selection, and four permission modes per thread.
+
+### Model Picker with Search
+Find any model from any provider instantly. Switch models and providers mid-chat while preserving conversation history and context.
+
+### Terminal Per Thread
+Every thread gets its own real PTY terminal. Run commands, check builds, inspect state — right where you need it.
+
+### Git Built In
+Worktrees, commits, pushes, pull requests. Every turn creates a hidden git checkpoint. Threads can start in their own worktree so several agents can work on one project simultaneously without clashing.
+
+### 26 Themes
+From System tinted-glass to Catppuccin, Dracula, Tokyo Night, Nord, Gruvbox, and more. Real glass, real code, real you.
+
+### Zero Compromise
+No remote access. No mobile apps. No cloud sync. No telemetry. No accounts. No web client. Left out on purpose.
+
+---
+
+## Download
+
+### Requirements
+- Apple Silicon Mac (M1 / M2 / M3 / M4 or newer)
+- macOS 26 or later
+- At least one provider installed (`codex login`, `claude auth login`, etc.)
+- Git, plus `gh` or `glab` for pull requests
+
+### Install
+1. Download the latest `.dmg` from [Releases](https://github.com/soumyachk101/SwarmAI-Release/releases)
+2. Open the disk image and drag **SwarmAI** to Applications
+3. Launch from Applications or Spotlight
+
+> If Gatekeeper blocks it on first launch: right-click → Open, or run `xattr -cr /Applications/SwarmAI.app`
+
+---
+
+## Architecture
+
+```
+┌──────────────────────────────────────────────────────┐
+│                   SwarmAI (SwiftUI)                   │
+│  ┌────────────────────────────────────────────────┐  │
+│  │            Liquid Glass Window                  │  │
+│  │  ┌──────────┐ ┌──────────┐ ┌────────────────┐  │  │
+│  │  │ Sidebar  │ │  Chat    │ │  Detail Panel  │  │  │
+│  │  │ Projects │ │ Thread   │ │  Diff / Git    │  │  │
+│  │  │ & Search │ │ Stream   │ │  Terminal      │  │  │
+│  │  └──────────┘ └──────────┘ └────────────────┘  │  │
+│  └────────────────────────────────────────────────┘  │
+│  ┌────────────────────────────────────────────────┐  │
+│  │  Theme Engine  │  Binary Field  │  Hydra Engine │  │
+│  └────────────────────────────────────────────────┘  │
+└──────────────────────────────────────────────────────┘
+         │                        │
+         ▼                        ▼
+  ┌──────────────┐      ┌──────────────┐
+  │ Your Mac     │      │ Your Agents  │
+  │ Swift / SwiftUI│     │ CLI Tools    │
+  │ No Electron  │      │ Your Subs    │
+  │ 1 dependency │      │ Your Control │
+  └──────────────┘      └──────────────┘
 ```
 
 ---
 
-## ✨ Features
+## Tech Stack
 
-- **Native macOS Interface**: Built exclusively for macOS with fluid fluid-glass aesthetics, native menus, and keyboard shortcuts.
-- **Unified Multi-Agent Orchestration**: Run Claude, Codex, Gemini, DeepSeek, Meta, and Copilot side-by-side or paired up with Hydra delegations.
-- **Live Provider Switching**: Switch models and providers mid-chat while preserving conversation history and context.
-- **In-Picker Search**: Search models across all providers in real time with instant filtering and quota previews.
-- **Isolated Worktrees**: Every agent thread automatically runs in an isolated Git worktree so parallel agents never clash.
-- **Interactive Review & Diffing**: Side-by-side visual diff inspector and review popovers before changes touch your codebase.
-- **Follow-up Queuing**: Queue follow-up prompts while an agent is executing; they send automatically when the turn completes.
-- **26 Beautiful Themes**: System tinted-glass, Catppuccin, Dracula, Tokyo Night, Nord, Gruvbox, and custom window opacity.
+| | |
+|---|---|
+| **Language** | Swift 6 |
+| **UI** | SwiftUI + Liquid Glass |
+| **Terminal** | SwiftTerm |
+| **Git** | libgit2 |
+| **Architecture** | MV + async/await |
+| **License** | MIT |
 
----
-
-## 📖 Releases & Changelog
-
-- **[Full Changelog](CHANGELOG.md)**: Detailed history of all releases, new features, bug fixes, and refinements.
-- **[GitHub Releases](https://github.com/soumyachk101/SwarmAI-Release/releases)**: Download disk images (`.dmg`) and view past release artifacts.
-- **[Blog & Updates](blog/)**: Deep dives, architecture updates, and feature spotlights.
+**One dependency. Zero telemetry. 100% native.**
 
 ---
 
-<p align="center">
-  <sub>Copyright © 2026 SwarmAI. All rights reserved.</sub>
-</p>
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the full history.
+
+### v1.1.2
+- Model search and provider switching in running chats
+- Eliminated all remaining compiler warnings
+
+### v1.0.0
+- 8 agent providers, Hydra, 26 themes, streaming diffs, inline approvals, follow-up queue, reasoning slider, terminal per thread
+
+---
+
+## FAQ
+
+**Is it really free?**
+Yes. SwarmAI is free and MIT licensed. You pay your agent providers as you already do; SwarmAI never sits in between.
+
+**Is it open source?**
+Yes. The full Swift/SwiftUI source is on [GitHub](https://github.com/soumyachk101/SwarmAI-Release). The code is MIT; the SwarmAI name and icon are trademarks.
+
+**Do I need an API key?**
+Not for Codex, Claude, Cursor, OpenCode, Grok or Antigravity — sign in once in your terminal. DeepSeek and Meta need a key stored in your Keychain.
+
+**Which Mac do I need?**
+Apple silicon, macOS 26+. Signed and notarized. No Gatekeeper workaround needed.
+
+**Does it send anything anywhere?**
+Only what your agents send to their own providers. No telemetry, no analytics, no account, no cloud sync.
+
+**Where do I get help?**
+Open an [issue on GitHub](https://github.com/soumyachk101/SwarmAI-Release/issues) or email hi@getswarmai.app.
+
+---
+
+## License
+
+Copyright (c) 2026 Soumya Chakraborty. All rights reserved.
+
+SwarmAI is released under the [MIT License](LICENSE). The SwarmAI name and icon are trademarks of Soumya Chakraborty — see [TRADEMARK.md](TRADEMARK.md).
+
+---
+
+<div align="center">
+
+**Made with love by [Soumya Chakraborty](https://github.com/soumyachk101)**
+
+Built in Swift. For Mac, only Mac, forever.
+
+[⬆ Back to top](#-swarmai)
+
+</div>
