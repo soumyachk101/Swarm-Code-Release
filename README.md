@@ -94,28 +94,28 @@ No remote access. No mobile apps. No cloud sync. No telemetry. No accounts. No w
 
 ```mermaid
 graph TB
-    subgraph Mac["🖥️ Your Mac — Apple Silicon"]
+    subgraph Mac["Your Mac — Apple Silicon"]
         direction TB
-        subgraph SwarmAI["🐝 SwarmAI — Native macOS App"]
+        subgraph SwarmAI["SwarmAI — Native macOS App"]
             direction LR
-            subgraph UI["🎨 Liquid Glass Interface"]
+            subgraph UI["Liquid Glass Interface"]
                 direction TB
-                Sidebar["📂 Sidebar\nProjects · Threads · Search"]
-                Chat["💬 Chat Thread\nStreaming · Diffs · Queue"]
-                Detail["📋 Detail Panel\nDiff · Git · Terminal"]
-                Palette["⌘ Palette\nModels · Actions"]
+                Sidebar["Sidebar\nProjects · Threads · Search"]
+                Chat["Chat Thread\nStreaming · Diffs · Queue"]
+                Detail["Detail Panel\nDiff · Git · Terminal"]
+                Palette["Command Palette\nModels · Actions"]
             end
-            subgraph Engine["⚙️ Core Engine"]
-                ThemeEngine["🎨 Theme Engine\n26 tinted-glass themes"]
-                BinaryField["💡 Binary Field\nCanvas + Glow"]
-                HydraEngine["🐉 Hydra Engine\nParallel worktrees"]
-                GitEngine["🔀 Git Engine\nCheckpoints · Worktrees"]
-                TerminalEngine["🖥️ Terminal\nSwiftTerm PTY"]
+            subgraph Engine["Core Engine"]
+                ThemeEngine["Theme Engine\n26 tinted-glass themes"]
+                BinaryField["Binary Field\nCanvas + Glow"]
+                HydraEngine["Hydra Engine\nParallel worktrees"]
+                GitEngine["Git Engine\nCheckpoints · Worktrees"]
+                TerminalEngine["Terminal\nSwiftTerm PTY"]
             end
         end
     end
 
-    subgraph Agents["🤖 Your Coding Agents"]
+    subgraph Agents["Your Coding Agents"]
         Codex["Codex CLI"]
         Claude["Claude CLI"]
         Cursor["Cursor CLI"]
