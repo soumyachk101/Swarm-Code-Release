@@ -174,7 +174,7 @@ graph TB
 
 ### Install
 
-1. Download `SwarmAI-1.1.3.dmg` from the [Releases](https://github.com/soumyachk101/SwarmAI-Release/releases) page.
+1. Download `SwarmAI-1.1.4.dmg` from the [Releases](https://github.com/soumyachk101/SwarmAI-Release/releases) page.
 2. Double-click the `.dmg` file to open it.
 3. Drag **SwarmAI.app** into your `/Applications` folder.
 4. Launch from Applications or Spotlight.
@@ -189,6 +189,10 @@ graph TB
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for the full history.
+
+### v1.1.4
+- Effort slider track transitions and particle animation continuity
+- Performance and stability optimizations
 
 ### v1.1.3
 - In-app update checker configured directly to the public SwarmAI-Release repository

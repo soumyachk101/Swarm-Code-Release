@@ -2,6 +2,12 @@
 
 All notable changes to SwarmAI are documented here.
 
+## [1.1.4] - 2026
+
+### Improved
+- Effort slider track transitions and particle animation continuity
+- Performance and stability optimizations
+
 ## [1.1.3] - 2026
 
 ### Changed
