@@ -68,15 +68,15 @@
 
     <!-- Native Agent Tools -->
     <g transform="translate(90,302)">
-      <rect width="420" height="180" rx="12" fill="url(#gNative)" stroke="#38bdf8" stroke-width="2"/>
-      <rect x="0" y="0" width="7" height="180" rx="3" fill="#38bdf8"/>
+      <rect width="420" height="196" rx="12" fill="url(#gNative)" stroke="#38bdf8" stroke-width="2"/>
+      <rect x="0" y="0" width="7" height="196" rx="3" fill="#38bdf8"/>
       <text x="20" y="28" class="t2">NATIVE AGENT TOOLS</text>
       <text x="20" y="58" class="t1">Claude Agent · Codex spawn_agent</text>
       <text x="20" y="84" class="t1">Copilot task · ACP subagents</text>
       <text x="20" y="116" class="t4">↓ emits streaming events</text>
       <text x="20" y="144" class="t3">ProviderEvent.messageDelta</text>
       <text x="20" y="168" class="t3">ProviderEvent.toolStarted</text>
-      <text x="20" y="190" class="t3">ProviderEvent.agentFinished</text>
+      <text x="20" y="192" class="t3">ProviderEvent.agentFinished</text>
     </g>
 
     <!-- Hydra Delegation -->

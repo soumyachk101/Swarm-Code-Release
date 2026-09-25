@@ -137,7 +137,7 @@ Swarm Code abstracts 10+ AI providers behind a unified protocol:
 | **Pi** (Inflection) | JSONL over stdio | Terminal session | Gate extension for approvals |
 | **DeepSeek** | Native API (OpenAI-compatible) | API key (Keychain) | Pay-as-you-go credits |
 | **Meta** | Native API (Muse Spark) | API key (Keychain) | Direct API at api.meta.ai/v1 |
-| **** | Coding Plan API | API key (Keychain) | OpenAI-compatible |
+| **Z.ai** (GLM) | Coding Plan API | API key (Keychain) | OpenAI-compatible |
 
 <p align="center">
   <img src="assets/screenshots/switcher.webp" alt="Model switcher" width="900">
@@ -182,10 +182,10 @@ Swarm Code includes a full Model Context Protocol hub:
 - **Live model switching** — Change provider/model mid-chat without losing context
 
 <p align="center">
-  <img src="assets/screenshots/agents.webp" alt="Named head profiles" width="900">
+  <img src="assets/screenshots/recipes.webp" alt="Hydra Cookbook" width="900">
 </p>
 <p align="center">
-  <sub>Named head profiles with curated model and effort presets.</sub>
+  <sub>Hydra Cookbook · Curated model pairs, roles, and effort presets ready to launch.</sub>
 </p>
 
 ### Chat & Threading
@@ -194,18 +194,36 @@ Swarm Code includes a full Model Context Protocol hub:
 - **Thread modes** — Column, Floating, Panel (animated transitions)
 - **Thread pinning, settling, archiving** — Settled threads dim until reopened
 - **Follow-up queue** — Type while a turn runs; messages queue and send after
-- **Inline approvals** — Agent plans, you approve right in the timeline
 - **Reply quotes** — Quote part of a reply to answer in-place
 - **Command palette** — ⌘K for threads, projects, actions
 - **Keyboard shortcuts** — ⌘1-9 switch threads, ⌘B toggle sidebar, ⌘W archive
 
 <p align="center">
-  <img src="assets/screenshots/sidebar.webp" alt="Sidebar" width="300">
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/screenshots/question.webp" alt="Inline question" width="900">
+  <img src="assets/screenshots/palette.webp" alt="Command Palette" width="900">
 </p>
 <p align="center">
-  <sub>Sidebar (mobile) and inline agent questions answered right in the timeline.</sub>
+  <sub>Command Palette · Press ⌘K to instantly search across threads, projects, and actions.</sub>
+</p>
+
+### Inline Approvals & Decisions
+
+- **Step-by-step plans** — Agent writes out structured steps before making code edits
+- **Interactive questions** — Multiple-choice questions and write-in feedback right in the timeline
+- **Approve or steer** — Implement proposed changes with one click or refine instructions
+- **Execution transparency** — Full visibility into file edits, shell commands, and tool calls
+
+<p align="center">
+  <img src="assets/screenshots/plans.webp" alt="Agent plans" width="900">
+</p>
+<p align="center">
+  <sub>Agent plans visible inline · Review proposed actions and approve or steer before execution.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/question.webp" alt="Interactive agent questions" width="900">
+</p>
+<p align="center">
+  <sub>Interactive agent questions · Select choices or type custom instructions right in the chat timeline.</sub>
 </p>
 
 ### Diffs & Version History
@@ -220,7 +238,7 @@ Swarm Code includes a full Model Context Protocol hub:
   <img src="assets/screenshots/diff.webp" alt="Diff view" width="900">
 </p>
 <p align="center">
-  <sub>Stacked diff view with red-green scheme. Revert any turn from the timeline.</sub>
+  <sub>Stacked diff view with red-green scheme. Revert any turn directly from the timeline.</sub>
 </p>
 
 ### Git Integration
@@ -230,13 +248,6 @@ Swarm Code includes a full Model Context Protocol hub:
 - **GitHub, GitLab, Forgejo, Azure DevOps, Bitbucket** hosting support
 - **Working tree watch** — Background refresh of remote branches
 - **Pull request landing** — Right-click merge in helper thread
-
-<p align="center">
-  <img src="assets/screenshots/plans.webp" alt="Plans" width="900">
-</p>
-<p align="center">
-  <sub>Agent plans visible inline; approve, reject, or steer before execution.</sub>
-</p>
 
 ### MCP (Model Context Protocol)
 
@@ -257,11 +268,9 @@ Swarm Code includes a full Model Context Protocol hub:
 
 <p align="center">
   <img src="assets/screenshots/themes.webp" alt="Themes" width="900">
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/screenshots/palette.webp" alt="Theme palette" width="900">
 </p>
 <p align="center">
-  <sub>26 tinted-glass themes with custom import and theme mixing.</sub>
+  <sub>26 tinted-glass themes with customizable glass opacity and light/dark theme mixing.</sub>
 </p>
 
 ### Notifications
