@@ -1,0 +1,148 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e14"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="gLead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c2a3f"/>
+      <stop offset="1" stop-color="#081e35"/>
+    </linearGradient>
+    <linearGradient id="gCore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#15123a"/>
+    </linearGradient>
+    <linearGradient id="gHead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f3320"/>
+      <stop offset="1" stop-color="#0a2518"/>
+    </linearGradient>
+    <linearGradient id="gWT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2a08"/>
+      <stop offset="1" stop-color="#2a1f05"/>
+    </linearGradient>
+    <linearGradient id="gMerge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c1a1f"/>
+      <stop offset="1" stop-color="#3f1015"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7d8aa3"/>
+    </marker>
+    <style>
+      .t1 { font-family: Inter, system-ui, sans-serif; fill: #38bdf8; font-size: 14px; font-weight: 700; }
+      .t2 { font-family: Inter, system-ui, sans-serif; fill: #f0f4ff; font-size: 16px; font-weight: 700; }
+      .t3 { font-family: Inter, system-ui, sans-serif; fill: #7dd3fc; font-size: 13px; }
+      .t4 { font-family: Inter, system-ui, sans-serif; fill: #a78bfa; font-size: 14px; font-weight: 700; }
+      .t5 { font-family: Inter, system-ui, sans-serif; fill: #f0f4ff; font-size: 13px; font-weight: 600; }
+      .t6 { font-family: Inter, system-ui, sans-serif; fill: #7d8aa3; font-size: 12px; }
+      .t7 { font-family: Inter, system-ui, sans-serif; fill: #4ade80; font-size: 14px; font-weight: 700; }
+      .t8 { font-family: Inter, system-ui, sans-serif; fill: #fb923c; font-size: 14px; font-weight: 700; }
+      .t9 { font-family: Inter, system-ui, sans-serif; fill: #e8edf5; font-size: 13px; font-weight: 600; }
+      .ta { font-family: Inter, system-ui, sans-serif; fill: #fbbf24; font-size: 12px; font-weight: 700; }
+      .tb { font-family: monospace; fill: #e8edf5; font-size: 13px; font-weight: 600; }
+      .tc { font-family: Inter, system-ui, sans-serif; fill: #f87171; font-size: 14px; font-weight: 700; }
+      .td { font-family: Inter, system-ui, sans-serif; fill: #e8edf5; font-size: 13px; }
+      .te { font-family: Inter, system-ui, sans-serif; fill: #6b7280; font-size: 12px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="960" height="620" fill="url(#bg)" rx="16"/>
+
+  <!-- Title bar -->
+  <rect x="30" y="20" width="900" height="30" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="50" cy="35" r="6" fill="#ef4444"/>
+  <circle cx="70" cy="35" r="6" fill="#eab308"/>
+  <circle cx="90" cy="35" r="6" fill="#22c55e"/>
+  <text x="480" y="40" text-anchor="middle" class="te">HYDRA — MULTI-AGENT ORCHESTRATION</text>
+
+  <!-- Lead Agent -->
+  <g transform="translate(380,68)">
+    <rect width="200" height="78" rx="12" fill="url(#gLead)" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="78" rx="3" fill="#38bdf8"/>
+    <text x="20" y="28" class="t1">YOUR CHAT</text>
+    <text x="100" y="54" text-anchor="middle" class="t2">Lead Agent</text>
+    <text x="100" y="72" text-anchor="middle" class="t3">Claude · Codex · …</text>
+  </g>
+
+  <line x1="480" y1="146" x2="480" y2="178" stroke="#7d8aa3" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Hydra Core -->
+  <g transform="translate(330,178)">
+    <rect width="300" height="100" rx="12" fill="url(#gCore)" stroke="#a78bfa" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="100" rx="3" fill="#a78bfa"/>
+    <text x="20" y="28" class="t4">HYDRA CORE</text>
+    <text x="20" y="54" class="t5">Brief Writer</text>
+    <text x="20" y="76" class="t5">Dispatcher</text>
+    <text x="180" y="54" class="t5">Merge Engine</text>
+    <text x="180" y="76" class="t5">Budget Controller</text>
+    <text x="20" y="94" class="t6">3-way merge · 35-min cap · pacing 24→120→160</text>
+  </g>
+
+  <!-- Arrows core → heads -->
+  <line x1="390" y1="278" x2="180" y2="318" stroke="#7d8aa3" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="430" y1="278" x2="350" y2="318" stroke="#7d8aa3" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="500" y1="278" x2="540" y2="318" stroke="#7d8aa3" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="560" y1="278" x2="750" y2="318" stroke="#7d8aa3" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+
+  <!-- Heads -->
+  <g transform="translate(80,318)">
+    <rect width="170" height="70" rx="12" fill="url(#gHead)" stroke="#4ade80" stroke-width="2"/>
+    <circle cx="24" cy="35" r="10" fill="#4ade80"/>
+    <text x="46" y="32" class="t7">Hank</text>
+    <text x="46" y="52" class="t9">Worker</text>
+  </g>
+  <g transform="translate(280,318)">
+    <rect width="170" height="70" rx="12" fill="url(#gHead)" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="24" cy="35" r="10" fill="#fb923c"/>
+    <text x="46" y="32" class="t8">Walter</text>
+    <text x="46" y="52" class="t9">Worker</text>
+  </g>
+  <g transform="translate(480,318)">
+    <rect width="170" height="70" rx="12" fill="url(#gHead)" stroke="#4ade80" stroke-width="2"/>
+    <circle cx="24" cy="35" r="10" fill="#4ade80"/>
+    <text x="46" y="32" class="t7">Ada</text>
+    <text x="46" y="52" class="t9">Worker</text>
+  </g>
+  <g transform="translate(680,318)">
+    <rect width="170" height="70" rx="12" fill="url(#gHead)" stroke="#a78bfa" stroke-width="2" stroke-dasharray="5,4"/>
+    <text x="85" y="32" text-anchor="middle" class="t4">…up to 8</text>
+    <text x="85" y="52" text-anchor="middle" class="t9">parallel heads</text>
+  </g>
+
+  <!-- heads → worktrees -->
+  <line x1="165" y1="388" x2="165" y2="418" stroke="#7d8aa3" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="365" y1="388" x2="365" y2="418" stroke="#7d8aa3" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="565" y1="388" x2="565" y2="418" stroke="#7d8aa3" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Worktrees -->
+  <g transform="translate(80,418)">
+    <rect width="170" height="56" rx="10" fill="url(#gWT)" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="56" rx="3" fill="#fbbf24"/>
+    <text x="20" y="24" class="ta">WORKTREE</text>
+    <text x="85" y="46" text-anchor="middle" class="tb">.swarm-code/hank/</text>
+  </g>
+  <g transform="translate(280,418)">
+    <rect width="170" height="56" rx="10" fill="url(#gWT)" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="56" rx="3" fill="#fbbf24"/>
+    <text x="20" y="24" class="ta">WORKTREE</text>
+    <text x="85" y="46" text-anchor="middle" class="tb">.swarm-code/walter/</text>
+  </g>
+  <g transform="translate(480,418)">
+    <rect width="170" height="56" rx="10" fill="url(#gWT)" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="56" rx="3" fill="#fbbf24"/>
+    <text x="20" y="24" class="ta">WORKTREE</text>
+    <text x="85" y="46" text-anchor="middle" class="tb">.swarm-code/ada/</text>
+  </g>
+
+  <!-- worktrees → merge -->
+  <line x1="165" y1="474" x2="390" y2="528" stroke="#7d8aa3" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="365" y1="474" x2="480" y2="528" stroke="#7d8aa3" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="565" y1="474" x2="570" y2="528" stroke="#7d8aa3" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Merge -->
+  <g transform="translate(290,528)">
+    <rect width="380" height="60" rx="12" fill="url(#gMerge)" stroke="#f87171" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="60" rx="3" fill="#f87171"/>
+    <text x="20" y="26" class="tc">LANDED IN YOUR CHECKOUT</text>
+    <text x="190" y="48" text-anchor="middle" class="td">one merge · no manual conflict resolution</text>
+  </g>
+</svg>

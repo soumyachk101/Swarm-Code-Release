@@ -1,12 +1,12 @@
 # Third-Party Notices
 
-> **SwarmAI** is built on the shoulders of giants. This document acknowledges the open-source software that makes SwarmAI possible.
+> **Swarm Code** is built on the shoulders of giants. This document acknowledges the open-source software that makes Swarm Code possible.
 
 ---
 
 ## Acknowledgement
 
-SwarmAI is released under the **MIT License** and embraces the open-source ecosystem. The app combines native Swift code with carefully selected third-party libraries, each under their own permissive license. We are grateful to the maintainers and contributors of every project listed here.
+Swarm Code is released under the **MIT License** and embraces the open-source ecosystem. The app combines native Swift code with carefully selected third-party libraries, each under their own permissive license. We are grateful to the maintainers and contributors of every project listed here.
 
 ---
 
@@ -19,7 +19,7 @@ SwarmAI is released under the **MIT License** and embraces the open-source ecosy
 | **Repository** | [migueldeicaza/SwiftTerm](https://github.com/migueldeicaza/SwiftTerm) |
 | **License** | MIT |
 | **Copyright** | (c) 2016–2026 Miguel de Icaza |
-| **Purpose** | Cross-platform terminal emulator written in Swift. SwarmAI embeds a real PTY terminal inside every thread using SwiftTerm as the rendering layer. |
+| **Purpose** | Cross-platform terminal emulator written in Swift. Swarm Code embeds a real PTY terminal inside every thread using SwiftTerm as the rendering layer. |
 | **License Text** | [github.com/migueldeicaza/SwiftTerm/blob/master/LICENSE](https://github.com/migueldeicaza/SwiftTerm/blob/master/LICENSE) |
 
 > _"SwiftTerm is the prettiest terminal emulator I have written."_ — Miguel de Icaza
@@ -28,7 +28,7 @@ SwarmAI is released under the **MIT License** and embraces the open-source ecosy
 
 ## Swift Package Ecosystem
 
-SwarmAI is built with Swift Package Manager. The full dependency manifest is available in `Package.swift` and `Package.resolved`.
+Swarm Code is built with Swift Package Manager. The full dependency manifest is available in `Package.swift` and `Package.resolved`.
 
 ### Direct Dependencies
 
@@ -50,7 +50,7 @@ SwarmAI is built with Swift Package Manager. The full dependency manifest is ava
 
 ## System Frameworks
 
-SwarmAI also uses Apple's first-party frameworks, which are covered under the macOS SDK license:
+Swarm Code also uses Apple's first-party frameworks, which are covered under the macOS SDK license:
 
 | Framework | Purpose |
 |-----------|---------|
@@ -78,7 +78,7 @@ System fonts are used wherever possible. Inter is bundled only when needed for t
 
 ## Design Inspiration
 
-SwarmAI's **Liquid Glass** aesthetic and several interaction patterns draw inspiration from:
+Swarm Code's **Liquid Glass** aesthetic and several interaction patterns draw inspiration from:
 
 - **Apple's Human Interface Guidelines** — Liquid Glass design system
 - **Roo Code** — Stream-driven chat UX patterns
@@ -89,7 +89,7 @@ SwarmAI's **Liquid Glass** aesthetic and several interaction patterns draw inspi
 
 ## AI Provider Acknowledgements
 
-SwarmAI does **not** ship or bundle any AI model. It acts as a unified interface to providers you authenticate with locally:
+Swarm Code does **not** ship or bundle any AI model. It acts as a unified interface to providers you authenticate with locally:
 
 | Provider | Attribution |
 |----------|-------------|
@@ -102,20 +102,20 @@ SwarmAI does **not** ship or bundle any AI model. It acts as a unified interface
 | DeepSeek | DeepSeek AI |
 | Meta Llama | Meta Platforms, Inc. |
 
-All trademarks are property of their respective owners. SwarmAI is not affiliated with, endorsed by, or sponsored by any of the above providers.
+All trademarks are property of their respective owners. Swarm Code is not affiliated with, endorsed by, or sponsored by any of the above providers.
 
 ---
 
 ## Icons & Assets
 
-- **App Icon:** Original design by Soumya Chakraborty (CC BY 4.0 for the bee motif, trademarked as SwarmAI brand).
+- **App Icon:** Original design by Soumya Chakraborty (CC BY 4.0 for the bee motif, trademarked as Swarm Code brand).
 - **SF Symbols:** Used under Apple's developer license.
 
 ---
 
 ## Contribution Notice
 
-If you believe SwarmAI includes software that should be acknowledged here and is not, please open an issue or email **hi@getswarmai.app**. We will add it promptly and correctly attribute the original authors.
+If you believe Swarm Code includes software that should be acknowledged here and is not, please open an issue or email **hi@swarmcode.dev**. We will add it promptly and correctly attribute the original authors.
 
 ---
 

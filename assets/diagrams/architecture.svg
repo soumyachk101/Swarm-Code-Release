@@ -1,0 +1,103 @@
+<svg viewBox="0 0 960 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e14"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="gApp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e3a5f"/>
+      <stop offset="1" stop-color="#152847"/>
+    </linearGradient>
+    <linearGradient id="gUI" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#25207a"/>
+      <stop offset="1" stop-color="#1a1760"/>
+    </linearGradient>
+    <linearGradient id="gSvc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b1f6e"/>
+      <stop offset="1" stop-color="#2a1858"/>
+    </linearGradient>
+    <linearGradient id="gCore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c1a5c"/>
+      <stop offset="1" stop-color="#421442"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7d8aa3"/>
+    </marker>
+    <style>
+      .t1 { font-family: Inter, system-ui, sans-serif; fill: #4f9cff; font-size: 16px; font-weight: 700; }
+      .t2 { font-family: Inter, system-ui, sans-serif; fill: #f0f4ff; font-size: 14px; font-weight: 600; }
+      .t3 { font-family: Inter, system-ui, sans-serif; fill: #93b8e8; font-size: 13px; }
+      .t4 { font-family: Inter, system-ui, sans-serif; fill: #5a7a9a; font-size: 11px; }
+      .t5 { font-family: Inter, system-ui, sans-serif; fill: #6b7280; font-size: 12px; font-weight: 600; }
+      .t6 { font-family: Inter, system-ui, sans-serif; fill: #7d8aa3; font-size: 11px; }
+      .t7 { font-family: monospace; fill: #e8edf5; font-size: 13px; font-weight: 600; }
+      .t8 { font-family: Inter, system-ui, sans-serif; fill: #f472b6; font-size: 16px; font-weight: 700; }
+      .t9 { font-family: Inter, system-ui, sans-serif; fill: #818cf8; font-size: 16px; font-weight: 700; }
+      .ta { font-family: Inter, system-ui, sans-serif; fill: #c084fc; font-size: 16px; font-weight: 700; }
+      .tb { font-family: Inter, system-ui, sans-serif; fill: #7d8aa3; font-size: 11px; }
+    </style>
+  </defs>
+
+  <rect width="960" height="460" fill="url(#bg)" rx="16"/>
+
+  <!-- Title bar -->
+  <rect x="30" y="20" width="900" height="30" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="50" cy="35" r="6" fill="#ef4444"/>
+  <circle cx="70" cy="35" r="6" fill="#eab308"/>
+  <circle cx="90" cy="35" r="6" fill="#22c55e"/>
+  <text x="480" y="40" text-anchor="middle" class="t5">SWARMCODE ARCHITECTURE</text>
+
+  <!-- Layer 4 -->
+  <g transform="translate(30,68)">
+    <rect width="900" height="88" rx="12" fill="url(#gApp)" stroke="#4f9cff" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="88" rx="3" fill="#4f9cff"/>
+    <text x="22" y="28" class="t1">LAYER 4 — APP</text>
+    <text x="22" y="50" class="t2">Entry · Runtime · Views</text>
+    <text x="22" y="72" class="t3">SwarmCodeApp.swift</text>
+    <text x="210" y="72" class="t3">AppModel</text>
+    <text x="320" y="72" class="t3">ThreadRuntime</text>
+    <text x="460" y="72" class="t3">WindowManager</text>
+    <text x="610" y="72" class="t3">Views</text>
+    <text x="22" y="86" class="t4">Chat · Composer · Diff · Palette · Settings · Sidebar</text>
+  </g>
+
+  <!-- Layer 3 -->
+  <g transform="translate(30,178)">
+    <rect width="900" height="72" rx="12" fill="url(#gUI)" stroke="#818cf8" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="72" rx="3" fill="#818cf8"/>
+    <text x="22" y="28" class="t9">LAYER 3 — UI</text>
+    <text x="22" y="50" class="t2">Chrome · Markdown · Theme · Sound</text>
+    <text x="22" y="68" class="t3">Chrome  ·  Markdown  ·  Theme (26 tints)  ·  Sound (chimes)</text>
+  </g>
+
+  <!-- Layer 2 -->
+  <g transform="translate(30,270)">
+    <rect width="900" height="72" rx="12" fill="url(#gSvc)" stroke="#c084fc" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="72" rx="3" fill="#c084fc"/>
+    <text x="22" y="28" class="ta">LAYER 2 — SERVICES</text>
+    <text x="22" y="50" class="t2">Git · Store · Providers · MCP</text>
+    <text x="22" y="68" class="t3">Git  ·  Store  ·  Providers (9+)  ·  MCP (Hub, Proxy, Bridge)</text>
+  </g>
+
+  <!-- Layer 1 -->
+  <g transform="translate(30,362)">
+    <rect width="900" height="58" rx="12" fill="url(#gCore)" stroke="#f472b6" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="58" rx="3" fill="#f472b6"/>
+    <text x="22" y="26" class="t8">LAYER 1 — CORE</text>
+    <text x="22" y="48" class="t2">Pure Models &amp; Support</text>
+    <text x="310" y="48" class="t3">Models  ·  Support (Shell, JSON-RPC, Stdio)</text>
+  </g>
+
+  <!-- Dependency arrows -->
+  <g transform="translate(915,68)">
+    <line x1="0" y1="44" x2="25" y2="44" stroke="#7d8aa3" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+    <line x1="0" y1="214" x2="25" y2="214" stroke="#7d8aa3" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+    <line x1="0" y1="306" x2="25" y2="306" stroke="#7d8aa3" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+    <text x="30" y="48" class="t6">depends</text>
+    <text x="30" y="218" class="t6">depends</text>
+    <text x="30" y="310" class="t6">depends</text>
+  </g>
+
+  <!-- Bottom note -->
+  <text x="480" y="448" text-anchor="middle" class="t6">Core depends on nothing · Services/UI depend only on Core · App depends on all layers</text>
+</svg>

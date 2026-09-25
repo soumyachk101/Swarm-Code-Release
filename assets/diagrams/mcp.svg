@@ -1,0 +1,102 @@
+<svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e14"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="gStore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#15123a"/>
+    </linearGradient>
+    <linearGradient id="gConn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a2540"/>
+      <stop offset="1" stop-color="#081c32"/>
+    </linearGradient>
+    <linearGradient id="gInject" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f3320"/>
+      <stop offset="1" stop-color="#0a2518"/>
+    </linearGradient>
+    <linearGradient id="gTools" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d2a0a"/>
+      <stop offset="1" stop-color="#2a1e08"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a78bfa"/>
+    </marker>
+    <style>
+      .t1 { font-family: Inter, system-ui, sans-serif; fill: #a78bfa; font-size: 14px; font-weight: 700; }
+      .t2 { font-family: Inter, system-ui, sans-serif; fill: #f0f4ff; font-size: 13px; font-weight: 600; }
+      .t3 { font-family: Inter, system-ui, sans-serif; fill: #7dd3fc; font-size: 12px; }
+      .t4 { font-family: Inter, system-ui, sans-serif; fill: #7d8aa3; font-size: 11px; }
+      .t5 { font-family: Inter, system-ui, sans-serif; fill: #fbbf24; font-size: 13px; font-weight: 700; }
+      .t6 { font-family: Inter, system-ui, sans-serif; fill: #f0f4ff; font-size: 12px; font-weight: 700; }
+      .t7 { font-family: Inter, system-ui, sans-serif; fill: #6b7280; font-size: 12px; font-weight: 600; }
+      .t8 { font-family: Inter, system-ui, sans-serif; fill: #4ade80; font-size: 13px; font-weight: 700; }
+      .t9 { font-family: monospace; font-size: 12px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <rect width="960" height="420" fill="url(#bg)" rx="16"/>
+
+  <!-- Title bar -->
+  <rect x="30" y="20" width="900" height="30" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="50" cy="35" r="6" fill="#ef4444"/>
+  <circle cx="70" cy="35" r="6" fill="#eab308"/>
+  <circle cx="90" cy="35" r="6" fill="#22c55e"/>
+  <text x="480" y="40" text-anchor="middle" class="t7">MCP INTEGRATION — MODEL CONTEXT PROTOCOL</text>
+
+  <!-- MCP Store -->
+  <g transform="translate(30,68)">
+    <rect width="900" height="58" rx="12" fill="url(#gStore)" stroke="#a78bfa" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="58" rx="3" fill="#a78bfa"/>
+    <text x="22" y="26" class="t1">MCP STORE</text>
+    <text x="22" y="46" class="t2">app-wide connection manager</text>
+  </g>
+
+  <line x1="480" y1="126" x2="480" y2="152" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- 4 connection cards -->
+  <g transform="translate(30,152)">
+    <rect width="215" height="68" rx="10" fill="url(#gConn)" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="68" rx="3" fill="#38bdf8"/>
+    <text x="22" y="28" class="t6">Local stdio</text>
+    <text x="22" y="48" class="t3">MCPHub</text>
+  </g>
+  <g transform="translate(263,152)">
+    <rect width="215" height="68" rx="10" fill="url(#gConn)" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="68" rx="3" fill="#38bdf8"/>
+    <text x="22" y="28" class="t6">Remote SSE</text>
+    <text x="22" y="48" class="t3">servers</text>
+  </g>
+  <g transform="translate(496,152)">
+    <rect width="215" height="68" rx="10" fill="url(#gConn)" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="68" rx="3" fill="#38bdf8"/>
+    <text x="22" y="28" class="t6">OAuth flows</text>
+    <text x="22" y="48" class="t3">MCPProxy</text>
+  </g>
+  <g transform="translate(729,152)">
+    <rect width="215" height="68" rx="10" fill="url(#gConn)" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="68" rx="3" fill="#38bdf8"/>
+    <text x="22" y="28" class="t6">Provider injection</text>
+    <text x="22" y="48" class="t3">MCPBridgeSource</text>
+  </g>
+
+  <line x1="480" y1="220" x2="480" y2="244" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Provider injection -->
+  <g transform="translate(30,244)">
+    <rect width="900" height="52" rx="10" fill="url(#gInject)" stroke="#a78bfa" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="52" rx="3" fill="#a78bfa"/>
+    <text x="22" y="24" class="t2">Each provider session receives the connected MCP servers</text>
+    <text x="22" y="44" class="t4">and exposes them inside the agent&apos;s tool namespace</text>
+  </g>
+
+  <line x1="480" y1="296" x2="480" y2="322" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Tools ribbon -->
+  <g transform="translate(30,322)">
+    <rect width="900" height="48" rx="10" fill="url(#gTools)" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="0" y="0" width="7" height="48" rx="3" fill="#fbbf24"/>
+    <text x="480" y="32" text-anchor="middle" class="t5">30+ PRECONFIGURED TOOLS · 7 CATEGORIES</text>
+  </g>
+</svg>

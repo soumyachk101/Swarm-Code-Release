@@ -1,8 +1,28 @@
 # Changelog
 
-All notable changes to SwarmAI are documented here.
+All notable changes to Swarm Code are documented here.
 
-## [1.1.4] - 2026
+## [1.1.7] - 2026
+
+### Added
+- Quick access links for Swarm Code official website and author GitHub profile in Settings Credits
+- Direct repository and releases navigation
+
+### Improved
+- Settings About and Credits presentation across native macOS and Tauri apps
+
+## [1.1.6] - 2026
+
+### Added
+- Complete app and platform rebrand to Swarm Code
+- Model Context Protocol (MCP) server integration with full MCP Hub, local proxy, OAuth authentication, and 30+ preconfigured tools
+- Hydra Head Profiles for tailored agent routing
+
+### Improved
+- Redesigned visual tour and theme previews with authentic typography
+- High-performance CoreAnimation breath rings and polished visual feedback
+
+## [1.1.5] - 2026
 
 ### Improved
 - Effort slider track transitions and particle animation continuity
@@ -11,7 +31,7 @@ All notable changes to SwarmAI are documented here.
 ## [1.1.3] - 2026
 
 ### Changed
-- Configured in-app update checker to fetch latest updates directly and anonymously from the public SwarmAI-Release repository
+- Configured in-app update checker to fetch latest updates directly and anonymously from the public Swarm-Code-Release repository
 - Streamlined about settings links and release references
 
 ## [1.1.2] - 2026
